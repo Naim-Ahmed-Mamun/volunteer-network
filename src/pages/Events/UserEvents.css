@@ -1,0 +1,29 @@
+.userEvent_section{
+    padding-top: 150px;
+}
+.event_item{
+    border-radius: 10px;
+    position: relative;
+}
+.userEvent_img img {
+    width: 280px;
+    height: 250px;
+}
+.userEvent_text {
+    margin-left: 30px;
+}
+.userEvent_text h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.delete_btn{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.delete_btn .btn{
+    background: #E3E3E3;
+    padding-top: 8px 25px;
+    border-radius: 5px;
+}

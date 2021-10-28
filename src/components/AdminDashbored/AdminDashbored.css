@@ -1,0 +1,43 @@
+.volunteer_register{
+    background: #F4F7FC;
+    height: 100vh;
+}
+.volunteer_register .row{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.volunteer_register_left_side_wrapper{
+    background: var(--white-color);
+    height: 100vh;
+}
+.volunteer_register_left_side{
+    padding-top: 20px;
+}
+.volunteer_register_left_side .logo{
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.volunteer_register_left_side .logo img{
+    width: 250px;
+}
+.volunteer_register_left_side_text{
+    padding-left: 50px;
+}
+.volunteer_register_left_side_text h5{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.volunteer_register_left_side_text .icon{
+    font-size: 16px;
+    margin-right: 15px;
+}
+.volunteer_register_left_side_text p{
+    color: var(--main-color);
+}
+.volunteer_register_left_side_text p .icon{
+    color: var(--main-color);
+}
+.volunteer_register_right_side_wrapper h4{
+    padding: 20px;
+    background: var(--white-color);
+}

@@ -1,0 +1,35 @@
+.logo img{
+    width: 350px;
+    height: 100px;
+}
+.volunteerRegister_section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerVolunteer_form{
+    max-width: 650px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin: 0 auto;
+}
+.registerVolunteer_form form input{
+    display: block;
+    width: 100%;
+    padding: 7px 0px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.registerVolunteer_form form input[type="submit"]{
+    background: var(--main-color);
+    border: none;
+    padding: 10px;
+    color: var(--white-color);
+    border-radius: 5px;
+}
+.registerVolunteer_form form input:focus{
+    outline: none;
+}

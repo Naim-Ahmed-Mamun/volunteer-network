@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/* --google font--- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* root */
+:root{
+    --main-color:#3F90FC;
+    --dark-color:#434141;
+    --black-color:#000;
+    --black-light:#0B0B0B;
+    --orange-color:#FFBD3E;
+    --tomato-color:#FF7044;
+    --blue-color:#421FCF;
+    --white-color:#fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ---global css start----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    font-family: 'Montserrat', sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img{
+    max-width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+ul{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+    text-decoration: none !important;
 }
+.regular_btn,
+.dark_btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    margin-left: 15px;
+}
+.dark_btn{
+    background-color: var(--dark-color);
+    /* margin-left: 15px; */
+}
+/* ---global css end----------- */

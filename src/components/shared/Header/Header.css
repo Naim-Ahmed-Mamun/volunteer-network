@@ -1,0 +1,20 @@
+.navBar_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+a.navbar-brand img {
+    width: 150px;
+}
+.nav_menu{
+    display: inline-block !important;
+}
+.nav_menu a{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 8px 12px;
+    color: var(--black-light);
+    font-weight: 500;
+}

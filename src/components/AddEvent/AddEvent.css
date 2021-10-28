@@ -1,0 +1,64 @@
+.add_event_wrapper{
+    background: #F4F7FC;
+    height: 100vh;
+}
+.add_event_wrapper .row{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.add_event_left_side_wrapper{
+    background: var(--white-color);
+    height: 100vh;
+}
+.add_event_left_side{
+    padding-top: 20px;
+}
+.add_event_left_side .logo{
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.add_event_left_side .logo img{
+    width: 150px;
+}
+.addEvent_left_side_text{
+    padding-left: 50px;
+}
+.addEvent_left_side_text h5{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.addEvent_left_side_text .icon{
+    font-size: 16px;
+    margin-right: 15px;
+}
+.addEvent_left_side_text p{
+    color: var(--main-color);
+}
+.addEvent_left_side_text p .icon{
+    color: var(--main-color);
+}
+.add_event_right_side_wrapper h4{
+    padding: 20px;
+    background: var(--white-color);
+}
+.react_hook_form{
+    background: var(--white-color);
+    padding: 50px;
+    margin: 100px 40px;
+}
+.react_hook_form label{
+    font-weight: 500;
+}
+.react_hook_form input,textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #eee;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.react_hook_form input[type="submit"]{
+    background: var(--main-color);
+    color: var(--white-color);
+    width: 100%;
+}

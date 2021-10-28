@@ -1,0 +1,42 @@
+.login_section .logo img{
+    width: 350px;
+    height: 100px;
+}
+.login_form_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.login_form{
+    max-width: 600px;
+    border: 2px solid gray;
+    padding: 80px 60px;
+    border-radius: 10px;
+}
+.login_form h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.google_login {
+    display: flex;
+    border: 2px solid gray;
+    padding: 10px 25px;
+    border-radius: 35px;
+    align-items: center;
+    cursor: pointer;
+}
+.google_login h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.google_login span {
+    display: inline-block;
+    margin-right: 25px;
+}
+.login_form p{
+    font-weight: 500;
+    margin-top: 30px;
+}
